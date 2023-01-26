@@ -1,0 +1,68 @@
+{
+    
+
+    "callback": {
+        "name_module": "Exemplos.Callback",
+        "file_path": "./apps/callback/start_callbacks.py"
+    },
+
+    "layout": {
+        "rows": [
+            {
+                "columns": [
+                    {
+                        "obs": "esq",
+                        "className": "two columns column_style",
+                        "type": "img",
+
+                        "id": "ufpb_logo",
+                        "file_path": "./images/logo_ufpb.png",
+                        "alt": "Logotipo da UFPB"
+                    },
+                    {
+                        "obs": "centro",
+                        "className": "eight columns column_style",
+                        "type": "markdown",
+
+                        "id": "titulo",
+                        "text": [
+                            "# Multi-Mapa - CEAR",
+                            "Estação Meteorológica do CEAR"
+                        ]
+                    },
+                    {
+                        "obs": "dir",
+                        "className": "two columns column_style",
+                        "type": "img",
+
+                        "id": "cear_logo",
+                        "file_path": "./images/logo_cear.png",
+                        "alt": "Logotipo do CEAR"
+                    }
+                ]               
+            },
+            
+            {
+                "columns": [
+                    {
+                        "type": "json",
+                        "file_path": "./apps/callback/graphs_estacao.json"
+                    }
+                ]
+            },
+
+            {
+                "columns": [
+                    {
+                        "obs": "col_1",
+                        "className": "twelve columns column_style",
+                        "type": "markdown",
+    
+                        "id": "mensagem",
+                        "text": "**Projeto Multi-Mapa (CEAR/UFPB)**"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,309 @@
+[
+    {
+        "className": "six columns column_style zera_margin-left",
+        "type": "graph",
+        "id": "graph_estacao",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Temp_Med",
+                "type": "bar-group",
+                "name": "Temp Média (°C)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "#555555",
+            "paper_bgcolor": "#555555",
+            "font": {
+                "color": "white"
+            },
+            "margin": {
+                "l": "60",
+                "r": "60",
+                "t": "80",
+                "b": "180"
+            },
+            "height": "600"
+        },
+        "text": "## Temperatura"
+    },
+    {
+        "className": "six columns column_style",
+        "type": "graph",
+        "id": "graph_estacao_2",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Umi_Med",
+                "type": "scatter",
+                "name": "Umidade (%)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## Umidade"
+    },
+
+    {
+        "className": "six columns column_style zera_margin-left",
+        "type": "graph",
+        "id": "graph_estacao_3",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Air_Press_Med",
+                "type": "bar-group",
+                "name": "Pressão Atmosférica (hPa)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "#555555",
+            "paper_bgcolor": "#555555",
+            "font": {
+                "color": "white"
+            },
+            "margin": {
+                "l": "60",
+                "r": "60",
+                "t": "80",
+                "b": "180"
+            },
+            "height": "600"
+        },
+        "text": "## Pressão Atmosférica"
+    },
+
+    {
+        "className": "six columns column_style",
+        "type": "graph",
+        "id": "graph_estacao_4",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Precip_Sum",
+                "type": "scatter",
+                "name": "Precipitação (mm)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## Precipitação"
+    },
+
+    {
+        "className": "six columns column_style zera_margin-left",
+        "type": "graph",
+        "id": "graph_estacao_5",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Wind_Speed_Med",
+                "type": "scatter",
+                "name": "Vel. Vento (m/s)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## Velocidade Vento"
+    },
+
+    {
+        "className": "six columns column_style",
+        "type": "graph",
+        "id": "graph_estacao_6",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "Wind_Direction_Med",
+                "type": "scatter",
+                "name": "Dir. Vento (°)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## Direção Vento"
+    },
+
+    {
+        "className": "six columns column_style zera_margin-left",
+        "type": "graph",
+        "id": "graph_estacao_7",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "DHI_Med",
+                "type": "scatter",
+                "name": "DHI  (W/m²)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## DHI"
+    },
+
+    {
+        "className": "six columns column_style",
+        "type": "graph",
+        "id": "graph_estacao_8",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "DNI_Med",
+                "type": "scatter",
+                "name": "DNI (W/m²)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## DNI"
+    },
+
+    {
+        "className": "twelve columns column_style",
+        "type": "graph",
+        "id": "graph_estacao_9",
+        "file_path": "./apps/callback/dados_estacao_cear.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Datetime",
+                "col_y": "GHI_Med",
+                "type": "scatter",
+                "name": "GHI (W/m²)"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "white",
+            "paper_bgcolor": "white",
+            "font": {
+                "color": "black"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "100"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "height": "600"
+        },
+        "text": "## GHI"
+    }
+
+
+]

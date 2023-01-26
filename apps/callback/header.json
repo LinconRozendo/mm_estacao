@@ -1,0 +1,25 @@
+[
+    {
+        "id": "ufpb_logo",
+        "className": "two columns column_style",
+        "type": "img",
+        "file_path": "./images/logo_ufpb.png",
+        "alt": "Logotipo da UFPB"
+    },
+    {
+        "id": "titulo",
+        "className": "eight columns column_style",
+        "type": "markdown",
+        "text": [
+            "# Multi-Mapa",
+            "CEAR/UFPB"
+        ]
+    },
+    {
+        "id": "cear_logo",
+        "className": "two columns column_style",
+        "type": "img",
+        "file_path": "./images/logo_cear.png",
+        "alt": "Logotipo do CEAR"
+    }
+]

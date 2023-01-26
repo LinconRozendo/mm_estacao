@@ -1,0 +1,116 @@
+[
+    {
+        "className": "twelve columns column_style",
+        "type": "dropdown",
+        "id": "dropdown_mesorregiao",
+        "options": [
+            {
+                "label": "Agreste Paraibano",
+                "value": "Agreste Paraibano"
+            },
+            {
+                "label": "Borborema",
+                "value": "Borborema"
+            },
+            {
+                "label": "Mata Paraibana",
+                "value": "Mata Paraibana"
+            },
+            {
+                "label": "Sertão Paraibano",
+                "value": "Sertão Paraibano"
+            }
+        ],
+        "value": "",
+        "multi": true,
+        "placeholder": "Filtrar por mesorregião..."
+    },
+    {
+        "className": "six columns column_style zera_margin-left",
+        "type": "graph",
+        "id": "graph_bar",
+        "file_path": "./apps/callback/df_EstadualFinal.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M_MAX",
+                "type": "bar",
+                "name": "T2M_MAX"
+            },
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M",
+                "type": "bar",
+                "name": "T2M"
+            },
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M_MIN",
+                "type": "bar",
+                "name": "T2M_MIN"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "#555555",
+            "paper_bgcolor": "#555555",
+            "font": {
+                "color": "white"
+            },
+            "margin": {
+                "l": "60",
+                "r": "60",
+                "t": "80",
+                "b": "180"
+            }
+        }
+    },
+    {
+        "className": "six columns column_style",
+        "type": "graph",
+        "id": "graph_line",
+        "file_path": "./apps/callback/df_EstadualFinal.csv",
+        "encoding": "latin-1",
+        "data": [
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M_MAX",
+                "type": "line+markers",
+                "name": "T2M_MAX"
+            },
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M",
+                "type": "line+markers",
+                "name": "T2M"
+            },
+            {
+                "col_x": "Nome_Munic",
+                "col_y": "T2M_MIN",
+                "type": "line+markers",
+                "name": "T2M_MIN"
+            }
+        ],
+        "layout": {
+            "plot_bgcolor": "#555555",
+            "paper_bgcolor": "#555555",
+            "font": {
+                "color": "white"
+            },
+            "margin": {
+                "l": "60",
+                "r": "30",
+                "t": "80",
+                "b": "220"
+            },
+            "xaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            },
+            "yaxis": {
+                "showgrid": "True",
+                "gridcolor": "gray"
+            }
+        }
+    }
+]

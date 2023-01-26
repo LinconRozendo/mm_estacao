@@ -1,0 +1,100 @@
+{
+    
+
+    "callback": {
+        "name_module": "Exemplos.Callback",
+        "file_path": "./apps/callback/callbacks_diaria.py"
+    },
+
+    "layout": {
+        "rows": [
+            {
+                "id": "row_1",
+                "columns": [
+                    {
+                        "obs": "esq",
+                        "className": "two columns column_style",
+                        "type": "img",
+
+                        "id": "ufpb_logo",
+                        "file_path": "./images/logo_ufpb.png",
+                        "alt": "Logotipo da UFPB"
+                    },
+                    {
+                        "obs": "centro",
+                        "className": "eight columns column_style",
+                        "type": "markdown",
+
+                        "id": "titulo",
+                        "text": [
+                            "# Plataforma Multi-Mapa CEAR/UFPB",
+                            "Estação Meteorológica do CEAR"
+                        ]
+                    },
+                    {
+                        "obs": "dir",
+                        "className": "two columns column_style",
+                        "type": "img",
+
+                        "id": "cear_logo",
+                        "file_path": "./images/logo_cear.png",
+                        "alt": "Logotipo do CEAR"
+                    }
+                ]               
+            },
+
+            {
+                "columns": [
+                    {
+                        "className": "twelve columns column_style",
+                        "type": "markdown",
+                        "id": "markdown1",
+                        "text": " ## Aguardando atualização."
+                    },
+                
+                    {
+                        "className": "twelve columns column_style",
+                        "type": "markdown",
+                        "id": "markdown2",
+                        "text":" "
+                    },
+
+                    {
+                        "className": "twelve columns column_style",
+                        "type": "markdown",
+                        "id": "markdown3",
+                        "text":" "
+                    }
+                ]
+            },
+
+            {
+                "columns": [
+                    {
+                        "id": "vazia",
+                        "type": "empty"
+                    },
+
+                    {
+                        "id": "vazia_2",
+                        "type": "empty"
+                    }
+
+                ]
+            },
+
+            {
+                "columns": [
+                    {
+                        "obs": "col_1",
+                        "className": "twelve columns column_style",
+                        "type": "markdown",
+    
+                        "id": "mensagem",
+                        "text": "**Projeto Multi-Mapa (CEAR/UFPB)**"
+                    }
+                ]
+            }
+        ]
+    }
+}
